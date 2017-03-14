@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<header>
-<?php
-echo 'Chappie Defeats the Vacuum!'
-?>
-</header>
-
 <head>
+        <meta charset="utf-8">
   <script src="jquery-3.1.1.min.js"></script>
 
         <title>Chappie Defeats the Vacuum!</title>
@@ -62,27 +57,28 @@ echo 'Chappie Defeats the Vacuum!'
                 var c = canvas.getContext("2d");
                 c.beginPath();
                 c.rect(0,0,W,H);
-                c.fillStyle = "#CCCCCC";
+                c.fillStyle = "black";
                 c.fill();
             }
 
 
             function Avatar () {
                 // position
-                this.x = 0;
-                this.y = 0;
-                this.size = 50;
+                this.x = 10;
+                this.y =15;
+                this.size = 30;
                 this.color = "blue";
             }
 
         </script>
 </head>
 <body>
-  <h1>"test"</h1>
+  <h1>Chappie Defeats the Vacuum!</h1>
 <canvas id="canvas" width="800" height="800" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <script>
-   $("h1").text("TEST");
+   <!--$("").text("");-->
+
 </script>
 
 </body>
